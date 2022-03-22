@@ -39,14 +39,59 @@ aside {
   height: 30px;
 }
 
-
-
 .side-nav a {
   padding-left: 10px;
   text-decoration: none;
   color: rgb(116, 116, 116);
   font-weight: bold;
 }
+
+.side-nav a:hover {
+  color: white;
+}
+
+/* 
+PLAYLIST
+ */
+.playlist p:first-child {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+}
+
+li:first-child {
+  flex-direction: row;
+  align-items: center;
+}
+
+li i:first-child {
+  font-size: 60px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+.playlist ul li {
+  color: rgb(116, 116, 116);
+  list-style: none;
+  font-weight: bold;
+  padding-bottom: 20px;
+  
+}
+
+.playlist ul li:hover {
+  cursor: pointer;
+  color: white;
+ 
+}
+
+/* /PLAYLIST */
+
 /* /ASIDE */
 
 
@@ -71,9 +116,14 @@ aside {
   border: 1px solid white;
   border-radius: 20px;
   padding: 10px 20px;
-  margin-right: 5px;
-  
+  margin-right: 20px;
 }
+
+.upgrade-btn:hover {
+  transform: scale(1.1);
+}
+
+
 /* /UPGRADE BAR */
 
 /* MAIN CONTENT */
