@@ -3,6 +3,16 @@
   border: 1px solid black;
 }
 
+.clearfix::after {
+  content: 0;
+  display: table;
+  clear: both;
+}
+
+.flex-container {
+  display: flex;
+}
+
 .h100 {
   height: 100px;
 }

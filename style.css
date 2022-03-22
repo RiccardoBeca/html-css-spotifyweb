@@ -1,0 +1,63 @@
+/* MAIN */
+main {
+  height: calc(100vh - 100px);
+  justify-content: flex-start;
+  /* background-color: rgb(20, 25, 34); */
+}
+
+/* ASIDE */
+aside {
+  height:100%;
+  width: 250px;
+}
+/* /ASIDE */
+
+
+/* UPGRADE BAR */
+.upgrade-bar {
+  background-color:rgba(8, 11, 18, 0.4);
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100px;
+  width:calc(100% - 250px);
+  z-index: 999;
+}
+
+.upgrade-btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-right: 5px;
+  
+}
+/* /UPGRADE BAR */
+
+/* MAIN CONTENT */
+.main-content {
+  overflow-y: auto;
+  height:100%;
+  width: calc(100% - 250px);
+  background-color:rgb(20, 25, 34);
+}
+/* /MAIN CONTENT */
+
+footer {
+  height: 100px;
+  justify-content: space-between;
+}
+
+.player-left {
+  width:20%;
+}
+.player-center {
+  width:calc(100% - 40%);
+}
+.player-right {
+  width:20%;
+}
