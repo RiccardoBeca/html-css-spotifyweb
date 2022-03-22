@@ -6,9 +6,46 @@ main {
 }
 
 /* ASIDE */
+
+.logo img {
+  height:50px;
+}
+
+.logo .logo-small {
+  display: none;
+}
+
 aside {
+  background-color:black ;
   height:100%;
   width: 250px;
+  padding: 20px;
+}
+
+.side-nav {
+  flex-direction: column;
+  padding-top: 25px;
+}
+
+
+.home, .search, .library {
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.side-nav img {
+  color: rgb(210, 210, 210);
+  height: 30px;
+}
+
+
+
+.side-nav a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: rgb(116, 116, 116);
+  font-weight: bold;
 }
 /* /ASIDE */
 
@@ -27,6 +64,7 @@ aside {
 }
 
 .upgrade-btn {
+  font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
   color: white;

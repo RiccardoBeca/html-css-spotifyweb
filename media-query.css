@@ -1,0 +1,47 @@
+
+/* MEDIA QUERY last breakpoint*/
+@media screen and (max-width:620px){
+  aside {
+    width: 50px;
+    padding: 0;
+  }
+
+  .upgrade-bar {
+    width:calc(100% - 50px);
+
+  }
+  .main-content {
+    width:calc(100% - 50px);
+
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .logo img {
+    display: none;
+  }
+
+  .logo .logo-small {
+    height: 30px;
+    display:block;
+    padding-top: 5px;
+  }
+
+  .home, .search, .library {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .side-nav {
+    padding-top: 0;
+  }
+  .side-nav a {
+    display: none;
+  }
+}
+/* /MEDIA QUERY last breakpoint */
+
+
+
