@@ -6,6 +6,13 @@ main {
 }
 
 /* ASIDE */
+.nav-top {
+  height: calc(100% - 70px);
+}
+
+.nav-bottom {
+  height: 70px;
+}
 
 .logo img {
   height:50px;
@@ -89,8 +96,52 @@ li i:first-child {
   color: white;
  
 }
-
 /* /PLAYLIST */
+
+.nav-bottom {
+  flex-direction: column;
+
+}
+
+.nav-bottom img {
+  height: 20px;
+}
+
+.app-download {
+  color:  rgb(116, 116, 116);
+  border-bottom: 1px solid grey;
+  padding-bottom: 3px;
+}
+
+.app-download p:hover {
+  color: white;
+
+}
+
+.app-download, .profile {
+  flex-direction: row;
+}
+
+.profile {
+  padding-top: 10px;
+}
+.app-download img {
+  padding-right: 10px;
+  color:  rgb(116, 116, 116);
+}
+
+.profile img {
+  background-color: grey;
+  border-radius: 50%;
+  padding: 0;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.profile p {
+  color: white;
+  font-weight: bold;
+}
 
 /* /ASIDE */
 

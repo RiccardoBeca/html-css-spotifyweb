@@ -40,6 +40,15 @@
   .side-nav a {
     display: none;
   }
+
+  .playlist {
+    display: none;
+  }
+
+  .nav-bottom .app-download,
+  .nav-bottom .profile {
+    display: none;
+  }
 }
 /* /MEDIA QUERY last breakpoint */
 
