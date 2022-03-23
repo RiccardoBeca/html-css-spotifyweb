@@ -182,6 +182,7 @@ li i:first-child {
   height:100%;
   width: calc(100% - 250px);
   background-color:rgb(20, 25, 34);
+  padding-bottom: 100px;
 }
 /* MENU */
 
@@ -224,13 +225,13 @@ li i:first-child {
 /* MUSIC CARDS */
 .music-cards {
   flex-direction: row;
-  justify-content: space-around;
+  padding-top: 30px;
 }
 
 .title h2 {
+  font-size: 2rem;
   color: white;
   font-weight: bold;
-  padding-bottom: 30px;
   padding-left: 20px;
 }
 
@@ -242,7 +243,6 @@ li i:first-child {
   width: calc(100% / 6);
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 .card img {
@@ -250,7 +250,8 @@ li i:first-child {
 }
 
 .card p:first-of-type {
-  padding-top: 10px;
+  text-align: center;
+  margin-top: 10px;
   color: white;
   font-weight: bold;
 }
@@ -260,6 +261,26 @@ li i:first-child {
   color: rgb(116, 116, 116);
   font-weight: bold;
 }
+
+/*SECOND ROW */
+
+.second-row {
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.second-row p {
+  color:rgb(116, 116, 116) ;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.popular-artist {
+  border-radius: 50%;
+}
+
+/*/SECOND ROW */
+
 /* /MUSIC CARDS */
 
 
