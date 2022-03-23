@@ -307,6 +307,7 @@ footer {
 }
 
 .song-name {
+  align-self: center;
   padding: 20px 10px;
 }
 
@@ -322,10 +323,10 @@ footer {
 }
 
 .preferred-song {
-  padding: 35px 30px;
+  padding-left: 30px;
 }
-
-.preferred-song i {
+.preferred-song i { 
+  align-self: center;
   color:rgb(116, 116, 116) ;
 }
 
