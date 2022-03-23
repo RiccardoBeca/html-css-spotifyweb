@@ -53,4 +53,9 @@
 /* /MEDIA QUERY last breakpoint */
 
 
+@media screen and (max-width:768px){
 
+ .card{
+   width: calc(100% / 4 - 1%);
+}
+}
