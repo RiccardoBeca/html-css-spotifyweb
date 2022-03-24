@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="global.css">
   <link rel="stylesheet" href="utils.css">
   <title>Spotify</title>
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 </head>
 
 <body>
@@ -89,14 +90,14 @@
     <!-- /ASIDE -->
     
     <!-- UPGRADE BAR -->
-    <div class="upgrade-bar">
-      <button class="upgrade-btn" href="#">effettua l'upgrade</button>
-    </div>
     <!-- /UPGRADE BAR -->
-
+    
     <!-- MAIN-CONTENT -->
     <div class="main-content">
-
+      
+      <div class="upgrade-bar">
+       <button class="upgrade-btn" href="#">effettua l'upgrade</button>
+      </div>
       <div class="menu flex-container">
         <ul class="flex-container">
           <li>
@@ -161,8 +162,7 @@
         <div class="card">
           <div class="wrapper">
             <img src="img/cure.jpeg" alt="">
-
-
+            <i class="fa-regular fa-circle-play"></i>
           </div>
 
           <p>A cure for wellness</p>
@@ -170,9 +170,10 @@
         </div>
 
         <div class="card">
-          <div class="wrapper"></div>
-
-          <img src="img/sinister.jpeg" alt="">
+          <div class="wrapper">
+            <img src="img/sinister.jpeg" alt="">
+            <i class="fa-regular fa-circle-play"></i>
+          </div>
           <p>Sinister</p>
           <p>Subtitle</p>
         </div>
@@ -226,9 +227,10 @@
   <!-- /MAIN -->
 
   <!-- FOOTER -->
-  <footer class="flex-container  h100 ">
+  <footer class="flex-container">
     <!-- PLAYER LEFT -->
-    <div class="player-left flex-container h100">
+    
+    <div class="player-left  flex-container">
       <img src="img/sinister.jpeg" alt="">
       <div class="song-name">
         <p>Sinister</p>
@@ -243,30 +245,32 @@
 
     <!-- PLAYER CENTER -->
     <div class="player-center flex-container">
-
-      <div class="player-buttons flex-container">
+      <div class="wrap flex-container ">
+        <div class="player-buttons flex-container">
         
-        <i class="fa-solid fa-shuffle"></i>
-        <i class="fa-solid fa-backward-step"></i>
-        <i class="fa-regular fa-circle-play"></i>
-        <i class="fa-solid fa-forward-step"></i>
-        <i class="fa-solid fa-arrow-rotate-right"></i>
-
-      </div>
-      <div class="timebar flex-container">
-        <div class="playing-time">0:25</div>
-        <div class="lightgrey-bar">
-          <div class="white-bar"></div>
+          <i class="fa-solid fa-shuffle"></i>
+          <i class="fa-solid fa-backward-step"></i>
+          <i class="fa-regular fa-circle-play"></i>
+          <i class="fa-solid fa-forward-step"></i>
+          <i class="fa-solid fa-arrow-rotate-right"></i>
+  
         </div>
-        <div class="total-song-time">4:35</div>
+        <div class="timebar flex-container">
+          <div class="playing-time">0:25</div>
+          <div class="lightgrey-bar">
+            <div class="white-bar"></div>
+          </div>
+          <div class="total-song-time">4:35</div>
+        </div>
       </div>
+      
 
     </div>
 
     <!-- /PLAYER CENTER -->
 
     <!-- PLAYER RIGHT -->
-    <div class="player-right flex-container">
+    <div class="player-right  flex-container">
       
       <i class="fa-solid fa-list"></i>
       <i class="fa-solid fa-display"></i>
