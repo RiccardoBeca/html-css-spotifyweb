@@ -1,6 +1,21 @@
 
-/* MEDIA QUERY last breakpoint*/
-@media screen and (max-width:480px){
+
+
+@media screen and (max-width:1024px){
+
+ .card{
+   width: calc(100% / 4 - 1%);
+   padding-bottom: 30px;
+ }
+
+ .menu ul li {
+   padding-right: 20px;
+   padding-bottom: 30px;
+ }
+}
+
+/* LAST BP */
+@media screen and (max-width:500px){
   aside {
     width: 50px;
     padding: 0;
@@ -14,6 +29,10 @@
     width:calc(100% - 50px);
 
   }
+
+    .card{
+      width: calc(100% / 2 - 1%);
+    }
 
   .logo {
     justify-content: center;
@@ -45,17 +64,21 @@
     display: none;
   }
 
-  .nav-bottom .app-download,
-  .nav-bottom .profile {
-    display: none;
+  .app-download {
+    border-bottom: none;
   }
-}
-/* /MEDIA QUERY last breakpoint */
 
+  .profile, .app-download {
+    justify-content: center;
+  }
 
-@media screen and (max-width:768px){
-
- .card{
-   width: calc(100% / 4 - 1%);
-}
+  .profile img {
+    width: 30px;
+    height: 30px;
+  }
+  .nav-bottom .app-download p,
+  .nav-bottom .profile p {
+    display: none;
+   
+  }
 }
